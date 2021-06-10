@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/tijan/IdeaProjects/TestNgProjects/src/class4/TIjana.java"><classes><class name="class4.TIjana"><methods><include name="bClassMethod1"/><include name="tijana"/></methods></class></classes></test></suite>

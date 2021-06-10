@@ -1,0 +1,44 @@
+TestNG Notes:
+It is annotation based framework
+@Test is main annotation which makes our method as test.
+It gives us additional features such as priorities of test cases, parameters, reports etc.
+
+Annotations:
+@Test - we write every function with this annotation for execution in testng
+@BeforeMethod - we use this annotation for pre conditions which executes before every function
+@AfterMethod -  we use this annotation for post conditions which executes after every function
+@BeforeClass - we use this annotation for the condition we want to execute in the beginning of class
+@AfterClass -  we use this annotation for the condition we want to execute in the end of class
+
+
+TestNG - TestNG is annotation based tool/framework
+
+@Test -  it takes our function/method as a test
+Testng has annotations for precondition and for post condition
+
+Testng has annotation @Before for all the precondition (@BeforeMethod, @BeforeClass)
+
+Testng has annotation @After for all the post condition (@AfterMethod, @AfterClass)
+
+
+TC 2: HRMS Application Negative Login:
+
+Open chrome browser
+Go to http://hrmstest.syntaxtechs.net/humanresources/symfony/web/index.php/auth/login
+Enter valid username
+Leave password field empty
+Verify error message with text “Password cannot be empty” is displayed.
+
+priority and enable/disable attributes
+Open chrome browser
+Go to http://hrmstest.syntaxtechs.net/humanresources/symfony/web/index.php/auth/login
+Enter valid username
+Enter valid password
+verify welcome message via hard assertion
+
+Hard assertions - hard assertions stop your overall execution when they fail and throw an exception
+Soft assertions - soft assertions allow you to execute your complete code and in the end they provide consolidated
+report of all the failed assertions
+
+TestNG.xml file -
+
